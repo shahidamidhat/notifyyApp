@@ -13,7 +13,7 @@ function App() {
   const [socket,setSocket] = useState(null);
 
   useEffect(()=>{
-    setSocket(io("https://midnotify.herokuapp.com/"))
+    setSocket(io("http://localhost:5000"))
   },[])
 
   useEffect(()=>{
