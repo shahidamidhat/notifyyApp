@@ -1,5 +1,4 @@
 import { useState } from "react"
-import { Socket } from "socket.io-client"
 import "./card.css"
 
 const Card = ({post, socket,user})=>{
