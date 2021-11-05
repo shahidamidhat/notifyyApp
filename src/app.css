@@ -1,0 +1,45 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 50vh;
+    border-radius: 3px;
+}
+
+.login {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width:50vh;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border:1px solid gray
+}
+
+button{
+    width: 50vh;
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+}
+
+.username{
+    font-weight: bold;
+    color: darkorchid;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
